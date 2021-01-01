@@ -91,10 +91,12 @@ RoboCopy is much faster for copying a large amount of small files.
 RmDir is also faster than "standard" delete.
 
 
-Results from gif:
+Test results on my machine on an SSD disk:
 Folder info: 1.73GB / 12 089 files
 - rcopy/normal copy: 43s/91s
 - rmdir/normal delete: ~ 3s/4.5s
+
+Results may vary based on your computer and disk - but wherever there are small files, you should benefit.
 
 
 # Credits
